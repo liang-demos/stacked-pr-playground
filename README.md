@@ -22,3 +22,7 @@ gh stack view
 `submit --auto` 会推送两个分支并创建两个草稿 PR。在 GitHub 上分别查看两个 PR 的 **Files changed**。`menu` 以 `main` 为目标分支，只改了菜单。`order` 以 `menu` 为目标分支，只多了一笔订单。
 
 想试第三层，可以在 `order` 上运行 `gh stack add pickup`，把 `002 已取餐` 写进 `src/pickups.txt`，提交后再运行 `gh stack submit --auto`。[GitHub 官方快速入门](https://docs.github.com/zh/pull-requests/get-started/stacked-prs-quickstart)
+
+
+
+<!-- hi hi hi -->
